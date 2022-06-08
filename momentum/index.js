@@ -1,5 +1,17 @@
 
-// #3.1 
-const title = document.getElementById('title');
+const title = document.querySelector('.title h1');
 
-title.innerText="got you!";
+function handleTitleClick(){
+    title.classList.toggle('active');
+    /*
+    const clickedClass = 'active'
+    if(title.classList.contains(clickedClass)){
+        title.classList.remove(clickedClass)
+    }else{
+        title.classList.add(clickedClass)
+    }
+    */
+}
+
+
+title.addEventListener('click',handleTitleClick)

@@ -1,2 +1,5 @@
 
-body {background-color:beige; }
+body {background-color:darkslateblue; }
+
+h1 {color:mediumaquamarine; transition:color 0.5s; }
+.active {color:peru}
