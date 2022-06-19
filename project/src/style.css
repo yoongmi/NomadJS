@@ -110,14 +110,7 @@ body::before {
 	color:#fff;
 	line-height:1.1;
 }
-.date span::before {
-	content:'';
-	position:absolute;
-	left:0; top:45%;
-	width:100%; height:1px;
-	background-color:#fff;
-	opacity:0.3;
-}
+
 .date .today {
 	font-size:30px; 
 	color:#fff;
